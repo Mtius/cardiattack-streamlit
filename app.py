@@ -134,28 +134,29 @@ def main() -> None:
         """
         <style>
             .stApp {
-                background: linear-gradient(160deg, #f7fbff 0%, #fff7f5 100%);
+                background: linear-gradient(160deg, #0b1220 0%, #1a1724 100%);
+                color: #f1f5f9;
             }
             .hero {
                 padding: 1.8rem 1rem 1rem;
                 text-align: center;
             }
             .hero h1 {
-                color: #17324d;
+                color: #f8fafc;
                 font-size: clamp(2.2rem, 6vw, 3.5rem);
                 margin-bottom: 0.4rem;
             }
             .hero p {
-                color: #526579;
+                color: #cbd5e1;
                 font-size: 1.1rem;
             }
             .footer {
-                color: #627386;
+                color: #94a3b8;
                 font-size: 0.9rem;
                 margin-top: 3rem;
                 padding: 1.2rem 0;
                 text-align: center;
-                border-top: 1px solid #e8edf2;
+                border-top: 1px solid #334155;
             }
         </style>
         <div class="hero">
